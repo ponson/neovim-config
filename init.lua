@@ -44,4 +44,7 @@ require("lazy").setup({
 		lazy = true,
 	},
 })
-vim.cmd.colorscheme("base16-tender")
+vim.opt.termguicolors = true
+--vim.cmd.colorscheme("base16-tender")
+--vim.cmd.colorscheme("base16-tokyodark")
+vim.cmd.colorscheme("base16-spacemacs")
