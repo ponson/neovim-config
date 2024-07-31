@@ -11,6 +11,7 @@ vim.api.nvim_create_autocmd({ "TextYankPost" }, {
 		})
 	end,
 })
+vim.opt.termguicolors = true
 -- keybindings
 local opt = { noremap = true, silent = true }
 vim.g.mapleader = " "
@@ -119,7 +120,7 @@ require("lazy").setup({
 		dependencies = { "nvim-lua/plenary.nvim" },
 	},
 })
-vim.opt.termguicolors = true
+
 -- color scheme
 vim.cmd.colorscheme("base16-tender")
 -- lsp config
